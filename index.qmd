@@ -11,9 +11,15 @@ Coding: Python, Java, C, R, Bash, JavaScript, HTML, CSS
 ```{r}
 print("Hello World")
 ```
+Don't worry, I can code much more than this
 
 ### Work Experience
-[Encyclopedia Titanica](https://www.linkedin.com/in/ng-kaijie/){target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/ng-kaijie/){target="_blank"}
+- Mansa Computers: Research and Development Lead
+- Group IB: Junior Integration/Implementation Engineer
 
 ### Interests
+- I like to code in my free time! \
 - As with all other guys, I like gaming. \
+- I am also a big fan of Korean Dramas \
+

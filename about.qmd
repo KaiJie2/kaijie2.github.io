@@ -1,8 +1,8 @@
 ---
-title: "FYP Project"
+title: "Projects"
 ---
 
-### About my FYP project
+### Past Projects
 
 ```{r}
 print("Hello World")

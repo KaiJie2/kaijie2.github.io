@@ -8,7 +8,7 @@ format: html
 I have used ChatGPT as my GenAI tool. I chose it because it is a well-known and widely used tool that can generate human-like text based on the input provided. It is also easy to use and has a user-friendly interface. \
 Github Copilot was used too as it integrates into RStudio which was the main IDE used to complete this assessment. \
 #### How did the GenAI tool help you in completing the assessment (with examples)?
-I used ChatGPT to generate ideas for my project and to help me with the writing process. For example, I asked it to help me come up with a ... for my project and it provided several suggestions. \
+I used ChatGPT to generate ideas for my project and to help me with the writing process. For example, I forgot how to embed a link and open it in a new tab without replace the current open tab, and it provided several suggestions. \
 #### What do you think are beneficial about the tool?
 It's super quick \
 #### What do you think are challenging about the tool?
