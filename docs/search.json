@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Kai Jie’s website",
     "section": "",
-    "text": "Introduction\nApplied Artificial Intelligence student at Singapore Institute of Technology. Proficient in analysing data into granular bits for solving real world issues with insights.\nI am a passionate learner who is always eager to explore new technologies and methodologies. I have a strong foundation in programming languages and data analysis, and I am excited to apply my skills in real-world projects.\n\n\nSkills\nCoding: Python, Java, C, R, Bash, JavaScript, HTML, CSS\n\nprint(\"Hello World\")\n\n[1] \"Hello World\"\n\n\nDon’t worry, I can code much more than this\n\n\nWork Experience\nLinkedIn\n\n\nMansa Computers: Research and Development Lead\n\nGroup IB: Junior Integration/Implementation Engineer\n\n\n\n\nInterests\n\nI like to code in my free time!\n\nAs with all other guys, I like gaming.\n\nI am also a big fan of Korean Dramas"
+    "text": "Introduction\n\n\n\nNg Kai Jie\n\n\n\nApplied Artificial Intelligence student at Singapore Institute of Technology. Proficient in analysing data into granular bits for solving real world issues with insights.\n\n\n\nI am a passionate learner who is always eager to explore new technologies and methodologies. I have a strong foundation in programming languages and data analysis, and I am excited to apply my skills in real-world projects.\n\n\nSkills\nCoding: Python, Java, C, R, Bash, JavaScript, HTML, CSS\n\nprint(\"Hello World\")\n\n[1] \"Hello World\"\n\n\nDon’t worry, I can code much more than this\n\n\nWork Experience\nLinkedIn\n\n\nMansa Computers: Research and Development Lead\n\nGroup IB: Junior Integration/Implementation Engineer\n\n\n\n\nInterests\n\nI like to code in my free time!\n\nAs with all other guys, I like gaming.\n\nI am also a big fan of Korean Dramas"
   },
   {
     "objectID": "about.html",
@@ -18,13 +18,34 @@
     "href": "reflection.html",
     "title": "Reflection",
     "section": "",
-    "text": "Reflection on the use of GenAI\n\nWhat is the GenAI tool you have used? Why did you choose it?\nI have used ChatGPT as my GenAI tool. I chose it because it is a well-known and widely used tool that can generate human-like text based on the input provided. It is also easy to use and has a user-friendly interface.\nGithub Copilot was used too as it integrates into RStudio which was the main IDE used to complete this assessment.\n\n\n\nHow did the GenAI tool help you in completing the assessment (with examples)?\nI used ChatGPT to generate ideas for my project and to help me with the writing process. For example, I forgot how to embed a link and open it in a new tab without replace the current open tab, and it provided several suggestions.\n\n\n\nWhat do you think are beneficial about the tool?\nIt’s super quick\n\n\n\nWhat do you think are challenging about the tool?\nThe prompts have to be just right, else it will not give the right answer.\n\n\n\nHow do you think will GenAI tools assist you for your future study or work?\nI think GenAI tools will be very useful in the future for generating ideas, writing code, and definitely debugging.\n\n\n\nAny other thoughts you would like to share.\nUnfortunately, I used GenAI to write this reflection."
+    "text": "I have used ChatGPT as my GenAI tool. I chose it because it is the first well-known and widely used tool. It is easy to use, has a user-friendly interface and additionally, I have a Plus membership!\nGitHub Copilot was used too as it integrates into RStudio which was the main IDE used to complete this assessment.\n\n\n\nI used ChatGPT to debug issues for my project and to help me with the writing process. For example, I forgot how to embed a link and open it in a new tab without replacing the current open tab, and it provided several suggestions.\n\n\n\nIt’s super quick, I don’t understand how AI has lesser neurons than a brain but it’s somewhat faster. Maybe it is because AI has memory retention as compared to the human brain.\n\n\n\nThe prompts have to be just right, else it will not give the right answer and just gives you a hallucinated answer or something else entirely.\n\n\n\nI think GenAI tools will be very useful in the future for generating ideas, writing code, and definitely debugging. I would like to think I am not a very creative person, and being able to generate ideas on the go is quite a valuable skill.\n\n\n\nThe time to do this assessment is not enough."
   },
   {
     "objectID": "movies.html",
     "href": "movies.html",
     "title": "Outside of work",
     "section": "",
-    "text": "Gaming\nHere is a video of me playing overwatch with my friend. This is my friend by the way.\n \n\n\nMovie Ratings\nI love movies, hence I created this page to share my thoughts on some of my favorite movies.\n\n\n1. Minecraft Movie\nKids movie, not worth watching as an adult. But totally brings back some childhood memories.\n\n\n\n2. Harry Potter\nI really don’t understand the hype. I mean, it’s a good movie, but not as good as the hype.\n\n\n\n3. Captain America: Brave New World\nI love the Captain America series. The action, the story, the characters, everything. But this was quite a disappointment"
+    "text": "Here is a video of me playing Overwatch with my friend. This is my friend by the way."
+  },
+  {
+    "objectID": "movies.html#gaming",
+    "href": "movies.html#gaming",
+    "title": "Outside of work",
+    "section": "",
+    "text": "Here is a video of me playing Overwatch with my friend. This is my friend by the way."
+  },
+  {
+    "objectID": "movies.html#movie-ratings",
+    "href": "movies.html#movie-ratings",
+    "title": "Outside of work",
+    "section": "Movie Ratings",
+    "text": "Movie Ratings\nI love movies, hence I created this page to share my thoughts on some of my favorite movies.\n\n1. Minecraft Movie\nKids movie, not worth watching as an adult. But totally brings back some childhood memories.\n\n\n\n2. Harry Potter\nI really don’t understand the hype. I mean, it’s a good movie, but not as good as the hype.\n\n\n\n3. Captain America: Brave New World\n\nI love the Captain America series. The action, the story, the characters, everything. But this was quite a disappointment."
+  },
+  {
+    "objectID": "reflection.html#reflection-on-the-use-of-genai",
+    "href": "reflection.html#reflection-on-the-use-of-genai",
+    "title": "Reflection",
+    "section": "",
+    "text": "I have used ChatGPT as my GenAI tool. I chose it because it is the first well-known and widely used tool. It is easy to use, has a user-friendly interface and additionally, I have a Plus membership!\nGitHub Copilot was used too as it integrates into RStudio which was the main IDE used to complete this assessment.\n\n\n\nI used ChatGPT to debug issues for my project and to help me with the writing process. For example, I forgot how to embed a link and open it in a new tab without replacing the current open tab, and it provided several suggestions.\n\n\n\nIt’s super quick, I don’t understand how AI has lesser neurons than a brain but it’s somewhat faster. Maybe it is because AI has memory retention as compared to the human brain.\n\n\n\nThe prompts have to be just right, else it will not give the right answer and just gives you a hallucinated answer or something else entirely.\n\n\n\nI think GenAI tools will be very useful in the future for generating ideas, writing code, and definitely debugging. I would like to think I am not a very creative person, and being able to generate ideas on the go is quite a valuable skill.\n\n\n\nThe time to do this assessment is not enough."
   }
 ]

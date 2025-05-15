@@ -1,18 +1,266 @@
-/* css styles */
+/*--------------------------------------------------------------
+  Variables & Global Settings
+--------------------------------------------------------------*/
+:root {
+  --font-sans: 'Helvetica Neue', Arial, sans‐serif;
+  --font-serif: 'Georgia', serif;
+  --font-base: 1rem;            /* equals 16px by default */
+  --body-color: #333;
+  --heading-color: #222;
+  --link-color: #0066cc;
+  --link-hover-color: #004499;
+  --bg-color: #fff;
+  --line-height: 1.6;
+  --max-width: 48rem;           /* ~768px for comfortable reading */
+  --spacing-unit: 1rem;
+  --border-color: #ddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+  margin: 0 auto;
+  padding: var(--spacing-unit);
+  max-width: var(--max-width);
+  font-family: var(--font-sans);
+  font-size: var(--font-base);
+  line-height: var(--line-height);
+  color: var(--body-color);
+  background-color: var(--bg-color);
 }
 
-h1,h2 {
-  font-size: 16pt;
-}
-h3,h4 {
-  font-size: 14pt;
-}
-
-p {
-  margin: 0;
-  padding: 0;
+/*--------------------------------------------------------------
+  Headings
+--------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--heading-color);
+  margin-top: calc(var(--spacing-unit) * 2);
+  margin-bottom: var(--spacing-unit);
   line-height: 1.2;
 }
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/*--------------------------------------------------------------
+  Paragraphs & Lists
+--------------------------------------------------------------*/
+p {
+  margin: 0 0 var(--spacing-unit);
+}
+
+ul, ol {
+  margin: 0 0 var(--spacing-unit) var(--spacing-unit);
+  padding: 0;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+
+/* Additional overrides to ensure content width */
+#quarto-content {
+  display: block !important; /* Override flex layout */
+  width: 100%;
+  position: relative;
+}
+
+#quarto-document-content {
+  width: auto !important;
+  max-width: 800px; /* Set a comfortable reading width */
+}
+
+/* Header styling to match content width */
+header#title-block-header {
+  width: auto;
+  max-width: 800px;
+}
+
+/* Mobile responsiveness improvements */
+@media (max-width: 991.98px) {
+  #quarto-sidebar {
+    width: 250px !important;
+    left: -250px; /* Hide off-screen by default on mobile */
+    transition: left 0.3s ease;
+  }
+  
+  main.content {
+    margin-left: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 15px;
+  }
+  
+  /* When sidebar is shown on mobile */
+  body.sidebar-visible main.content {
+    margin-left: 250px !important;
+    width: calc(100% - 250px) !important;
+  }
+}
+/*--------------------------------------------------------------
+  Sidebar & TOC Layout
+--------------------------------------------------------------*/
+#quarto-margin-sidebar {
+  width: 300px !important; /* Increased width */
+}
+
+#quarto-sidebar {
+  width: 300px !important; /* Match the margin sidebar width */
+  padding-right: 1rem;
+  position: fixed;
+  left: 0;
+  top: 70px; /* Adjust based on your navbar height */
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+  background-color: var(--bg-color);
+  z-index: 1000;
+  border-right: 1px solid var(--border-color);
+}
+
+.sidebar-navigation {
+  width: 300px !important; /* Make consistent with the sidebar width */
+}
+
+/* Reset Quarto's default layout */
+.page-columns {
+  display: block !important;
+}
+
+/* Main content layout */
+main.content {
+  margin-left: 320px !important; /* Slightly more than sidebar width */
+  width: auto !important; /* Let it take available space */
+  max-width: calc(100% - 340px) !important; /* Maximum width considering sidebar */
+  padding-right: 20px;
+}
+
+/* Ensure proper padding in the TOC */
+.sidebar .toc-active {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Make TOC headings more prominent */
+#toc-title {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Style TOC links */
+.sidebar nav a {
+  padding: 0.25rem 0;
+  display: block;
+  font-size: 0.9rem;
+}
+/*--------------------------------------------------------------
+  Links
+--------------------------------------------------------------*/
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* Navigation specific styling */
+.navbar .nav-link {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+/*--------------------------------------------------------------
+  Images & Figures
+--------------------------------------------------------------*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: var(--spacing-unit) auto;
+}
+
+/*--------------------------------------------------------------
+  Blockquotes
+--------------------------------------------------------------*/
+blockquote {
+  margin: var(--spacing-unit) 0;
+  padding: var(--spacing-unit);
+  border-left: 4px solid var(--border-color);
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+/*--------------------------------------------------------------
+  Code & Preformatted
+--------------------------------------------------------------*/
+code {
+  font-family: monospace;
+  background-color: #f5f5f5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+pre {
+  background-color: #f5f5f5;
+  padding: var(--spacing-unit);
+  overflow: auto;
+  border-radius: 4px;
+  margin: var(--spacing-unit) 0;
+}
+
+/*--------------------------------------------------------------
+  Tables
+--------------------------------------------------------------*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing-unit) 0;
+}
+th, td {
+  border: 1px solid var(--border-color);
+  padding: 0.75rem;
+  text-align: left;
+}
+th {
+  background-color: #fafafa;
+  font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+  Utility Classes
+--------------------------------------------------------------*/
+/* Center a block */
+.text-center {
+  text-align: center;
+}
+
+/* Small print */
+.small {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+

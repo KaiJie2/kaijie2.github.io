@@ -2,28 +2,24 @@
 title: "Reflection"
 ---
 
-### Reflection on the use of GenAI  
-##### What is the GenAI tool you have used? Why did you choose it?  
+## Reflection on the use of GenAI
 
-I have used ChatGPT as my GenAI tool. I chose it because it is a well-known and widely used tool that can generate human-like text based on the input provided. It is also easy to use and has a user-friendly interface. \
-Github Copilot was used too as it integrates into RStudio which was the main IDE used to complete this assessment. \
-<br>
-##### How did the GenAI tool help you in completing the assessment (with examples)?  
+### What is the GenAI tool you have used? Why did you choose it?
+I have used ChatGPT as my GenAI tool. I chose it because it is the first well-known and widely used tool. It is easy to use, has a user-friendly interface and additionally, I have a Plus membership!
 
-I used ChatGPT to generate ideas for my project and to help me with the writing process. For example, I forgot how to embed a link and open it in a new tab without replace the current open tab, and it provided several suggestions. \
-<br>
-##### What do you think are beneficial about the tool?  
+GitHub Copilot was used too as it integrates into RStudio which was the main IDE used to complete this assessment.
 
-It's super quick \
-<br>
-##### What do you think are challenging about the tool?  
-The prompts have to be just right, else it will not give the right answer. \
-<br>
-##### How do you think will GenAI tools assist you for your future study or work?  
+### How did the GenAI tool help you in completing the assessment (with examples)?
+I used ChatGPT to debug issues for my project and to help me with the writing process. For example, I forgot how to embed a link and open it in a new tab without replacing the current open tab, and it provided several suggestions.
 
-I think GenAI tools will be very useful in the future for generating ideas, writing code, and definitely debugging. \
-<br>
-##### Any other thoughts you would like to share.  
+### What do you think are beneficial about the tool? 
+It's super quick, I don't understand how AI has lesser neurons than a brain but it's somewhat faster. Maybe it is because AI has memory retention as compared to the human brain.
 
-Unfortunately, I used GenAI to write this reflection. \
-<br>
+### What do you think are challenging about the tool?  
+The prompts have to be just right, else it will not give the right answer and just gives you a hallucinated answer or something else entirely.
+
+### How do you think will GenAI tools assist you for your future study or work?  
+I think GenAI tools will be very useful in the future for generating ideas, writing code, and definitely debugging. I would like to think I am not a very creative person, and being able to generate ideas on the go is quite a valuable skill.
+
+### Any other thoughts you would like to share.  
+The time to do this assessment is not enough.
