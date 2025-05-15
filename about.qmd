@@ -1,9 +1,11 @@
 ---
-title: "About"
+title: "FYP Project"
 ---
 
-About this site
+### About my FYP project
 
 ```{r}
-1 + 1
+print("Hello World")
 ```
+
+Don't worry, I did more than Hello World

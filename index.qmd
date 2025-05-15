@@ -1,11 +1,19 @@
 ---
-title: "temp_website"
+title: "Kai Jie's website"
 ---
 
-This is a Quarto website.
+### Introduction
+Applied Artificial Intelligence student at Singapore Institute of Technology. Proficient in analysing data into granular bits for solving real world issues with insights.\
+I am a passionate learner who is always eager to explore new technologies and methodologies. I have a strong foundation in programming languages and data analysis, and I am excited to apply my skills in real-world projects.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
+### Skills
+Coding: Python, Java, C, R, Bash, JavaScript, HTML, CSS
 ```{r}
-1 + 1
+print("Hello World")
 ```
+
+### Work Experience
+https://www.linkedin.com/in/ng-kaijie/
+
+### Interests
+- As with all other guys, I like gaming. \

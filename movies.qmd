@@ -1,0 +1,17 @@
+---
+title: "Outside of work"
+format: html
+---
+### Gaming
+Here is a video of me playing overwatch with my friend. This is my friend by the way. \
+{{< video https://youtu.be/5C77d2qzeUU >}}
+
+### Movie Ratings
+I love movies, hence I created this page to share my thoughts on some of my favorite movies. \
+#### 1. Minecraft Movie
+Kids movie, not worth watching as an adult. But totally brings back some childhood memories. \
+#### 2. Harry Potter
+I really don't understand the hype. I mean, it's a good movie, but not as good as the hype. \
+#### 3. Captain America: Brave New World
+I love the Captain America series. The action, the story, the characters, everything. But this was quite a disappointment \
+
