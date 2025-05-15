@@ -6,7 +6,6 @@ title: "Kai Jie's website"
 ::::{.columns}
 :::{.column width="30%"}
 ![](photo.jpg){width=300}  
-Ng Kai Jie
 
 :::
 :::{.column width="10%"}
