@@ -13,7 +13,7 @@ print("Hello World")
 ```
 
 ### Work Experience
-https://www.linkedin.com/in/ng-kaijie/
+[Encyclopedia Titanica](https://www.linkedin.com/in/ng-kaijie/){target="_blank"}
 
 ### Interests
 - As with all other guys, I like gaming. \
