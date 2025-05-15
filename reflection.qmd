@@ -1,19 +1,29 @@
 ---
-title: "reflection"
-format: html
+title: "Reflection"
 ---
 
-### Reflection on the use of GenAI
-#### What is the GenAI tool you have used? Why did you choose it?
+### Reflection on the use of GenAI  
+##### What is the GenAI tool you have used? Why did you choose it?  
+
 I have used ChatGPT as my GenAI tool. I chose it because it is a well-known and widely used tool that can generate human-like text based on the input provided. It is also easy to use and has a user-friendly interface. \
 Github Copilot was used too as it integrates into RStudio which was the main IDE used to complete this assessment. \
-#### How did the GenAI tool help you in completing the assessment (with examples)?
+<br>
+##### How did the GenAI tool help you in completing the assessment (with examples)?  
+
 I used ChatGPT to generate ideas for my project and to help me with the writing process. For example, I forgot how to embed a link and open it in a new tab without replace the current open tab, and it provided several suggestions. \
-#### What do you think are beneficial about the tool?
+<br>
+##### What do you think are beneficial about the tool?  
+
 It's super quick \
-#### What do you think are challenging about the tool?
+<br>
+##### What do you think are challenging about the tool?  
 The prompts have to be just right, else it will not give the right answer. \
-#### How do you think will GenAI tools assist you for your future study or work?
+<br>
+##### How do you think will GenAI tools assist you for your future study or work?  
+
 I think GenAI tools will be very useful in the future for generating ideas, writing code, and definitely debugging. \
-#### Any other thoughts you would like to share.
+<br>
+##### Any other thoughts you would like to share.  
+
 Unfortunately, I used GenAI to write this reflection. \
+<br>

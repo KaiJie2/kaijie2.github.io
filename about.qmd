@@ -1,11 +1,13 @@
 ---
-title: "Projects"
+title: "Past Projects"
 ---
 
-### Past Projects
+### Project 1  
 
 ```{r}
 print("Hello World")
 ```
 
-Don't worry, I did more than Hello World
+Don't worry, I did more than Hello World \
+
+### Project 2  
